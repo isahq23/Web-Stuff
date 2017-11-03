@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <link href="popup-style.css" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript">
+        <!--
+            function toggle_visibility(id) {
+               var e = document.getElementById(id);
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+        //-->
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="popup-box" class="popup-position">
+            <div id="popup-wrapper">
+                <div id="popup-container">
+                    <h1>POP-UP BOX</h1>
+                    <p>Congratulations!</p>
+                    <a href="javascript:void(0)" onclick="toggle_visibility('popup-box');">CLOSE POP-UP BOX</a>
+                </div><!-- popup-container end -->
+            </div><!-- popup-wrapper end -->
+        </div><!-- popup-box end -->
+        
+        <div id="wrapper">
+        
+            <a href="javascript:void(0)" onclick="toggle_visibility('popup-box');">OPEN POP-UP BOX</a>
+        
+        </div><!-- wrapper end -->
+        
+    </body>
+    
+</html>
